@@ -1,11 +1,12 @@
-import Navbar from '@/components/Navbar'
-import Hero from '@/components/Hero'
-import About from '@/components/About'
-import WhyUs from '@/components/WhyUs'
-import Services from '@/components/Services'
-import Process from '@/components/Process'
-import Portfolio from '@/components/Portfolio'
-import Footer from '@/components/Footer'
+import Navbar from '@/components/layout/Navbar';
+import Hero from '@/components/hero/Hero';
+import About from '@/components/about/About';
+import WhyUs from '@/components/why-us/WhyUs';
+import Services from '@/components/services/Services';
+import Process from '@/components/process/Process';
+import Portfolio from '@/components/portfolio/Portfolio';
+import FAQ from '@/components/faq/FAQ';
+import Footer from '@/components/layout/Footer';
 
 export default function Home() {
   return (
@@ -18,8 +19,9 @@ export default function Home() {
         <Services />
         <Process />
         <Portfolio />
+        <FAQ />
         <Footer />
       </main>
     </>
-  )
+  );
 }
