@@ -58,8 +58,8 @@ const Footer = () => {
             <Image 
               src="/logo.png" 
               alt="Safha Labs Logo" 
-              width={150} 
-              height={40} 
+              width={240} 
+              height={60} 
               className={styles.footerLogoImage}
             />
           </Link>
