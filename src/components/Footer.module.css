@@ -144,8 +144,10 @@ a.contactItem:hover {
 
 .footerLogoImage {
   width: 200px;
-  height: auto;
+  height: 60px;
   object-fit: contain;
+  transform: scale(2.2);
+  transform-origin: left center;
 }
 
 .navLinks {
