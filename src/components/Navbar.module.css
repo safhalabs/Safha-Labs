@@ -44,9 +44,8 @@
 }
 
 .logoImage {
-  height: 55px;
-  width: auto;
-  max-height: 55px;
+  width: 180px;
+  height: auto;
   object-fit: contain;
 }
 

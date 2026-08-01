@@ -143,9 +143,8 @@ a.contactItem:hover {
 }
 
 .footerLogoImage {
-  height: 55px;
-  width: auto;
-  max-height: 55px;
+  width: 200px;
+  height: auto;
   object-fit: contain;
 }
 
