@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter, IBM_Plex_Mono } from 'next/font/google'
 import './globals.css'
+import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -36,7 +37,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="id" className={`${inter.variable} ${ibmPlexMono.variable}`}>
-      <body>{children}</body>
+      <body>
+        {children}
+        <FloatingWhatsApp />
+      </body>
     </html>
   )
 }

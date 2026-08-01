@@ -38,7 +38,7 @@ const Hero = () => {
             Safha Labs adalah mitra teknologi strategis yang berfokus menyederhanakan kompleksitas operasional bisnis Anda melalui pengembangan CRM dan Website custom, didukung oleh rekam jejak solusi yang teruji di berbagai sektor.
           </p>
           <div className={styles.actions}>
-            <a href="https://wa.me/6285117808182" target="_blank" rel="noopener noreferrer" className={styles.primaryCta}>
+            <a href="https://wa.me/6285117808182?text=Halo%20Safha%20Labs%2C%20saya%20tertarik%20untuk%20berdiskusi%20lebih%20lanjut%20mengenai%20proyek%20saya." target="_blank" rel="noopener noreferrer" className={styles.primaryCta}>
               Konsultasi Kebutuhan Anda
             </a>
             <a href="#layanan" className={styles.secondaryCta}>

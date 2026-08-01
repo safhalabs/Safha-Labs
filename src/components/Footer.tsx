@@ -17,7 +17,7 @@ const Footer = () => {
             Let's build a system that truly follows your team's workflow. Schedule a free consultation and discover how we can streamline your business operations.
           </p>
           <a 
-            href="https://wa.me/6285117808182?text=Hi%20Safha%20Labs%2C%20I%20would%20like%20to%20discuss%20a%20project." 
+            href="https://wa.me/6285117808182?text=Halo%20Safha%20Labs%2C%20saya%20tertarik%20untuk%20berdiskusi%20lebih%20lanjut%20mengenai%20proyek%20saya." 
             target="_blank" 
             rel="noopener noreferrer"
             className={styles.ctaBtn}
@@ -31,7 +31,7 @@ const Footer = () => {
       {/* Contact Info Row */}
       <div className={styles.contactContainer}>
         <div className={styles.contactRow}>
-          <a href="https://wa.me/6285117808182" target="_blank" rel="noopener noreferrer" className={styles.contactItem}>
+          <a href="https://wa.me/6285117808182?text=Halo%20Safha%20Labs%2C%20saya%20tertarik%20untuk%20berdiskusi%20lebih%20lanjut%20mengenai%20proyek%20saya." target="_blank" rel="noopener noreferrer" className={styles.contactItem}>
             <MessageCircle className={styles.contactIcon} size={20} />
             <span>+62 851-1780-8182</span>
           </a>
@@ -45,7 +45,7 @@ const Footer = () => {
           </a>
           <div className={styles.contactItem}>
             <MapPin className={styles.contactIcon} size={20} />
-            <span>Jakarta, Indonesia</span>
+            <span>Bandung, Jawa Barat, Indonesia</span>
           </div>
         </div>
       </div>

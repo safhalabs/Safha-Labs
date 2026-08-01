@@ -46,7 +46,7 @@ const Navbar = () => {
         </div>
 
         <div className={styles.desktopActions}>
-          <a href="https://wa.me/6285117808182" target="_blank" rel="noopener noreferrer" className={styles.ctaButton}>
+          <a href="https://wa.me/6285117808182?text=Halo%20Safha%20Labs%2C%20saya%20tertarik%20untuk%20berdiskusi%20lebih%20lanjut%20mengenai%20proyek%20saya." target="_blank" rel="noopener noreferrer" className={styles.ctaButton}>
             Mulai Proyek
           </a>
         </div>
@@ -64,7 +64,7 @@ const Navbar = () => {
           <Link href="#proses" className={styles.mobileNavLink} onClick={toggleMenu}>Proses</Link>
           <Link href="#portofolio" className={styles.mobileNavLink} onClick={toggleMenu}>Portofolio</Link>
           <Link href="#kontak" className={styles.mobileNavLink} onClick={toggleMenu}>Kontak</Link>
-          <a href="https://wa.me/6285117808182" target="_blank" rel="noopener noreferrer" className={styles.mobileCtaButton}>
+          <a href="https://wa.me/6285117808182?text=Halo%20Safha%20Labs%2C%20saya%20tertarik%20untuk%20berdiskusi%20lebih%20lanjut%20mengenai%20proyek%20saya." target="_blank" rel="noopener noreferrer" className={styles.mobileCtaButton}>
             Mulai Proyek
           </a>
         </div>
