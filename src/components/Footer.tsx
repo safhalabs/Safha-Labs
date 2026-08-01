@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { MessageCircle, Mail, AtSign, MapPin } from 'lucide-react';
 import styles from './Footer.module.css';
 
@@ -53,7 +54,15 @@ const Footer = () => {
       {/* Footer Bottom */}
       <div className={styles.bottomContainer}>
         <div className={styles.bottomRow}>
-          <div className={styles.logo}>SafhaLabs</div>
+          <Link href="/" className={styles.logoLink}>
+            <Image 
+              src="/logo.png" 
+              alt="Safha Labs Logo" 
+              width={150} 
+              height={40} 
+              className={styles.footerLogoImage}
+            />
+          </Link>
           <nav className={styles.navLinks}>
             <Link href="#tentang">About</Link>
             <Link href="#layanan">Services</Link>

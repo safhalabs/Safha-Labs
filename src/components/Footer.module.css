@@ -133,11 +133,20 @@ a.contactItem:hover {
   align-items: center;
 }
 
-.logo {
-  font-family: var(--font-serif, serif);
-  font-size: 18px;
-  font-weight: 600;
-  color: #ffffff;
+.logoLink {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.logoLink:hover {
+  transform: scale(1.05);
+}
+
+.footerLogoImage {
+  height: auto;
+  width: auto;
+  max-height: 40px;
+  object-fit: contain;
 }
 
 .navLinks {

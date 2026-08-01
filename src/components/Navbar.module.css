@@ -43,23 +43,11 @@
   transform: scale(1.05);
 }
 
-.logoIcon {
-  color: var(--color-amber-600, #d97706);
-}
-
-.logoText {
-  font-family: var(--font-serif, serif);
-  font-weight: 700;
-  font-size: 1.25rem;
-  color: var(--color-gray-900, #111827);
-}
-
-.logoItalic {
-  font-family: var(--font-serif, serif);
-  font-style: italic;
-  font-weight: 400;
-  font-size: 1.25rem;
-  color: var(--color-amber-600, #d97706);
+.logoImage {
+  height: auto;
+  width: auto;
+  max-height: 40px;
+  object-fit: contain;
 }
 
 .desktopNav {
