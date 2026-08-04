@@ -33,10 +33,14 @@ const Hero = () => {
     >
       <div className="max-w-[1200px] mx-auto grid grid-cols-1 min-[901px]:grid-cols-[1.1fr_1fr] gap-16 items-center w-full">
         <div 
-          className={`transition-all duration-800 ease-out max-[900px]:text-center ${
+          className={`relative transition-all duration-800 ease-out max-[900px]:text-center ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-[20px]'
           }`}
         >
+          {/* Subtle Backlight Gradients */}
+          <div className="absolute -top-[10%] -left-[10%] w-[70%] h-[70%] bg-teal-400/20 blur-[120px] -z-10 pointer-events-none rounded-full"></div>
+          <div className="absolute top-[30%] left-[10%] w-[80%] h-[70%] bg-amber-400/15 blur-[120px] -z-10 pointer-events-none rounded-full"></div>
+          
           <div className="inline-block text-sm font-semibold uppercase tracking-wider text-teal-700 mb-4 px-3 py-1 bg-teal-600/10 rounded-full">
             Mitra Teknologi Strategis
           </div>
