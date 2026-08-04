@@ -16,16 +16,12 @@
   --line-invert: rgba(255, 255, 255, 0.12);
   --text-soft: #6B7280;
   --text-softer: #9CA3AF;
-
-  --font-serif: var(--font-serif), Georgia, serif;
-  --font-sans: var(--font-sans), system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-mono: var(--font-mono), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 }
 
 @theme {
-  --font-serif: var(--font-serif);
-  --font-sans: var(--font-sans);
-  --font-mono: var(--font-mono);
+  --font-serif: var(--font-serif), Georgia, serif;
+  --font-sans: var(--font-sans), system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-mono), monospace;
 
   --color-ink: #0A1628;
   --color-ink-2: #132035;
