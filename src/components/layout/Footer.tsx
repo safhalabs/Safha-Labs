@@ -1,6 +1,7 @@
 import React from 'react';
 import { Mail, MapPin, Phone, ArrowUpRight } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { SITE_CONFIG, NAV_LINKS } from '@/constants/site';
 
 const Footer = () => {
@@ -30,16 +31,14 @@ const Footer = () => {
 
         <div className="grid grid-cols-1 min-[901px]:grid-cols-4 gap-12 py-16 border-b border-white/10">
           <div className="min-[901px]:col-span-1">
-            <Link href="/" className="flex items-center gap-2 no-underline mb-6">
-              <svg className="text-amber-500" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-                <polyline points="14 2 14 8 20 8" />
-                <line x1="16" y1="13" x2="8" y2="13" />
-                <line x1="16" y1="17" x2="8" y2="17" />
-                <polyline points="10 9 9 9 8 9" />
-              </svg>
-              <span className="font-serif font-bold text-2xl text-white">Safha</span>
-              <span className="font-serif italic font-normal text-2xl text-amber-500">Labs</span>
+            <Link href="/" className="inline-block mb-6 transition-transform duration-200 hover:scale-105">
+              <Image
+                src="/logo.svg"
+                alt={SITE_CONFIG.name}
+                width={160}
+                height={40}
+                className="h-9 w-auto object-contain brightness-0 invert"
+              />
             </Link>
             <p className="text-slate-400 text-[15px] leading-relaxed m-0">
               Mitra teknologi strategis yang berfokus menyederhanakan operasional bisnis melalui CRM dan Website custom.
