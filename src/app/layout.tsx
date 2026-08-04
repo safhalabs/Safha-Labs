@@ -99,7 +99,7 @@ export default function RootLayout({
       <head>
         <JsonLd />
       </head>
-      <body>
+      <body suppressHydrationWarning>
         {children}
         <FloatingWhatsApp />
       </body>
