@@ -26,18 +26,18 @@ export default function WhyUs() {
   }, []);
 
   return (
-    <section id="mengapa" className="bg-slate-50 py-24 px-6 section-lazy-render" ref={sectionRef}>
+    <section id="mengapa" className="bg-[#FAFAFC] py-24 px-6 section-lazy-render" ref={sectionRef}>
       <div className="max-w-[1200px] mx-auto">
-        <div className="text-center max-w-[700px] mx-auto mb-15">
-          <span className="inline-block text-teal-600 font-semibold uppercase tracking-widest text-sm mb-4">
-            Mengapa Safha Labs
+        <div className="text-center max-w-[700px] mx-auto mb-16">
+          <span className="font-mono text-[13px] font-semibold uppercase tracking-[0.18em] text-amber-700 block mb-3">
+            Keunggulan Safha Labs
           </span>
-          <h2 className="text-4xl max-[768px]:text-3xl font-bold text-slate-900 m-0">
+          <h2 className="text-[2.25rem] min-[960px]:text-[2.75rem] font-bold text-[#070D18] m-0 tracking-tight leading-tight">
             Tiga Pilar yang Membedakan Kami
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 min-[769px]:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 min-[960px]:grid-cols-3 gap-6">
           {WHY_US_DATA.map((item, index) => (
             <WhyUsCard
               key={item.id}

@@ -22,28 +22,28 @@ export default function ProcessStepItem({
 }: ProcessStepItemProps) {
   return (
     <div
-      className={`flex gap-8 max-[640px]:gap-5 relative z-10 py-7 border-b border-slate-100 last:border-b-0 transition-all duration-600 ease-out group ${
+      className={`flex gap-8 max-[640px]:gap-5 relative z-10 py-7 border-b border-slate-200/60 last:border-b-0 transition-all duration-600 ease-out group ${
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-[20px]'
       }`}
       data-index={dataIndex}
     >
       <div className="shrink-0">
         <div
-          className={`w-[44px] h-[44px] rounded-full flex items-center justify-center font-mono text-base font-bold text-white shadow-[0_0_0_6px_#ffffff] transition-all duration-300 group-hover:scale-110 ${
+          className={`w-[44px] h-[44px] rounded-full flex items-center justify-center font-mono text-[15px] font-bold text-white shadow-[0_0_0_6px_#FAFAFC] transition-all duration-500 group-hover:scale-110 ${
             isOdd
-              ? 'bg-amber-600 group-hover:shadow-[0_0_0_6px_#ffffff,0_0_15px_rgba(217,119,6,0.4)]'
-              : 'bg-teal-600 group-hover:shadow-[0_0_0_6px_#ffffff,0_0_15px_rgba(13,148,136,0.4)]'
+              ? 'bg-amber-500 group-hover:shadow-[0_0_0_6px_#FAFAFC,0_0_15px_rgba(245,158,11,0.5)]'
+              : 'bg-teal-500 group-hover:shadow-[0_0_0_6px_#FAFAFC,0_0_15px_rgba(20,184,166,0.5)]'
           }`}
         >
           {stepNumber}
         </div>
       </div>
-      <div className="flex gap-5 max-[640px]:flex-col max-[640px]:gap-3 items-start pt-1.5 flex-1">
-        <div className="shrink-0 text-slate-500 flex items-center justify-center">
-          <Icon className="w-6 h-6" />
+      <div className="flex gap-5 max-[640px]:flex-col max-[640px]:gap-3 items-start pt-1.5 flex-1 transition-transform duration-500 group-hover:translate-x-2">
+        <div className="shrink-0 text-slate-400 group-hover:text-slate-800 transition-colors duration-500 flex items-center justify-center">
+          <Icon className="w-[22px] h-[22px]" strokeWidth={2} />
         </div>
         <div className="flex-1">
-          <h3 className="text-lg font-semibold text-slate-900 mb-2 m-0">{title}</h3>
+          <h3 className="text-[19px] font-semibold text-[#070D18] mb-2 m-0 tracking-tight group-hover:text-teal-700 transition-colors duration-300">{title}</h3>
           <p className="text-[15px] leading-relaxed text-slate-600 m-0">{description}</p>
         </div>
       </div>

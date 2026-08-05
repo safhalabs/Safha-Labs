@@ -29,7 +29,7 @@ const instrumentSerif = Instrument_Serif({
 export const metadata: Metadata = {
   metadataBase: new URL('https://safhalabs.id'),
   title: {
-    default: 'Safha Labs — Jasa Pembuatan Website & CRM Custom Bandung',
+    default: 'Safha Labs | Jasa Pembuatan Website & CRM Custom Bandung',
     template: '%s | Safha Labs',
   },
   description:
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     canonical: 'https://safhalabs.id',
   },
   openGraph: {
-    title: 'Safha Labs — Jasa Pembuatan Website & CRM Custom Bandung',
+    title: 'Safha Labs | Jasa Pembuatan Website & CRM Custom Bandung',
     description:
       'Mitra teknologi strategis untuk pembuatan CRM WhatsApp custom, portal akademik, dan website bisnis.',
     url: 'https://safhalabs.id',
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Safha Labs — Jasa Pembuatan Website & CRM Custom Bandung',
+    title: 'Safha Labs | Jasa Pembuatan Website & CRM Custom Bandung',
     description:
       'Mitra teknologi strategis untuk pembuatan CRM WhatsApp custom, portal akademik, dan website bisnis.',
   },

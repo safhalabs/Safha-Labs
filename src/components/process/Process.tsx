@@ -74,13 +74,13 @@ export default function Process() {
   }, []);
 
   return (
-    <section id="proses" className="bg-white py-24 px-6 section-lazy-render">
+    <section id="proses" className="bg-[#FAFAFC] py-24 px-6 section-lazy-render">
       <div className="max-w-[800px] mx-auto">
-        <div className="text-center mb-20">
-          <span className="inline-block font-mono text-xs font-semibold uppercase tracking-widest text-slate-500 mb-4">
-            Siklus Kolaborasi
+        <div className="text-center mb-20 max-w-[700px] mx-auto">
+          <span className="font-mono text-[13px] font-semibold uppercase tracking-[0.18em] text-amber-700 block mb-3">
+            Metodologi Kerja
           </span>
-          <h2 className="text-3xl max-[640px]:text-2xl font-bold text-slate-900 m-0">
+          <h2 className="text-[2.25rem] min-[960px]:text-[2.75rem] font-bold text-[#070D18] m-0 tracking-tight leading-tight">
             Tujuh Langkah Menuju Sistem Digital Anda
           </h2>
         </div>

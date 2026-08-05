@@ -10,28 +10,35 @@ export default function ServiceCard({ service }: ServiceCardProps) {
   const isTeal = service.accentColor === 'teal';
 
   return (
-    <div className="bg-white border border-slate-200 rounded-3xl p-9 shadow-sm flex flex-col transition-all duration-300 hover:-translate-y-1 hover:shadow-xl group">
+    <div className="bg-white border border-slate-200 rounded-[32px] p-10 flex flex-col transition-all duration-500 hover:-translate-y-2 shadow-sm hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.05)] hover:border-slate-300 group relative overflow-hidden">
+      {/* Background glow on hover */}
+      <div className={`absolute top-0 right-0 w-64 h-64 rounded-full blur-[80px] opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none -z-10 -translate-y-1/2 translate-x-1/2 ${
+        isTeal ? 'bg-teal-500/10' : 'bg-amber-500/10'
+      }`}></div>
+      
       <div
-        className={`w-14 h-14 rounded-2xl flex items-center justify-center mb-6 transition-shadow duration-300 ${
+        className={`w-16 h-16 rounded-2xl flex items-center justify-center mb-8 transition-transform duration-500 group-hover:scale-110 border shadow-sm ${
           isTeal
-            ? 'bg-teal-600/10 text-teal-600 group-hover:shadow-[0_0_15px_rgba(13,148,136,0.3)]'
-            : 'bg-amber-500/10 text-amber-600 group-hover:shadow-[0_0_15px_rgba(217,119,6,0.3)]'
+            ? 'bg-teal-50/80 text-teal-600 border-teal-100/50'
+            : 'bg-amber-50/80 text-amber-600 border-amber-100/50'
         }`}
       >
-        <Icon className="w-7 h-7" />
+        <Icon className="w-8 h-8" strokeWidth={1.5} />
       </div>
-      <h3 className="text-xl font-semibold text-slate-900 mb-2">{service.title}</h3>
+      
+      <h3 className="text-[22px] font-bold text-[#070D18] mb-3 tracking-tight">{service.title}</h3>
       {service.subtitle && (
-        <p className="text-sm font-medium text-slate-500 mb-4">{service.subtitle}</p>
+        <p className="text-[15px] font-medium text-slate-500 mb-5">{service.subtitle}</p>
       )}
-      <p className="text-slate-600 text-[15px] leading-relaxed mb-6 flex-grow">
+      <p className="text-slate-600 text-[15px] leading-relaxed mb-8 flex-grow">
         {service.description}
       </p>
-      <div className="flex flex-wrap gap-2">
+      
+      <div className="flex flex-wrap gap-2.5">
         {service.tags.map((tag, index) => (
           <span
             key={index}
-            className="bg-slate-100 text-slate-600 font-mono text-[11px] font-semibold px-3 py-1.5 rounded-full border border-slate-200"
+            className="bg-[#FAFAFC] text-slate-600 font-mono text-[11px] font-semibold tracking-wide px-3 py-1.5 rounded-full border border-slate-200 transition-colors group-hover:border-slate-300"
           >
             {tag}
           </span>

@@ -4,26 +4,28 @@ export interface PortfolioItem {
   title: string;
   description: string;
   techPills: string[];
-  type: 'crm' | 'listing';
+  type?: 'crm' | 'website' | 'listing';
+  image?: string;
 }
 
 export const PORTFOLIO_DATA: PortfolioItem[] = [
+  {
+    id: 'travel-mozaik',
+    tag: 'CLIENT PROJECT',
+    title: 'Website Landing Page Travel Umrah & Haji (Mozaik Travel Bandung)',
+    description:
+      'Landing page profesional yang dirancang untuk meningkatkan kepercayaan calon jamaah, menampilkan informasi paket secara jelas, serta memudahkan konsultasi dan pemesanan melalui WhatsApp.',
+    techPills: ['Next.js', 'Tailwind CSS', 'SEO Optimized', 'Responsive Design'],
+    image: '/portofolio/travel-mozaik-bandung.png',
+    type: 'website',
+  },
   {
     id: 'crm-whatsapp',
     tag: 'INTERNAL SYSTEM',
     title: 'CRM WhatsApp & Manajemen Klien',
     description:
-      'Sistem CRM internal yang dibangun menggunakan Google Appscript dan Firebase untuk mengelola komunikasi klien melalui WhatsApp secara terstruktur dan efisien.',
-    techPills: ['Google Appscript', 'Firebase', 'WhatsApp API'],
+      'Sistem CRM berbasis web untuk mengelola data klien, memantau status proyek, menyimpan riwayat komunikasi, dan meningkatkan efisiensi pengelolaan pelanggan dalam satu dashboard.',
+    techPills: ['Google Apps Script', 'Firebase', 'WhatsApp API'],
     type: 'crm',
-  },
-  {
-    id: 'properti-listing',
-    tag: 'CLIENT PROJECT',
-    title: 'Website Listing Agen Properti Freelancer',
-    description:
-      'Website properti berkinerja tinggi dengan filter pencarian spesifik, galeri visual, dan integrasi kontak langsung untuk memaksimalkan tingkat konversi calon pembeli.',
-    techPills: ['Next.js', 'Responsive Design', 'SEO Optimized'],
-    type: 'listing',
   },
 ];
