@@ -1,25 +1,43 @@
+import dynamic from 'next/dynamic';
 import Navbar from '@/components/layout/Navbar';
 import Hero from '@/components/hero/Hero';
-import About from '@/components/about/About';
-import WhyUs from '@/components/why-us/WhyUs';
-import Services from '@/components/services/Services';
-import Process from '@/components/process/Process';
-import Portfolio from '@/components/portfolio/Portfolio';
-import FAQ from '@/components/faq/FAQ';
-import Footer from '@/components/layout/Footer';
+
+// Below-the-fold components loaded dynamically to optimize initial bundle size & TBT
+const About = dynamic(() => import('@/components/about/About'));
+const WhyUs = dynamic(() => import('@/components/why-us/WhyUs'));
+const Services = dynamic(() => import('@/components/services/Services'));
+const Process = dynamic(() => import('@/components/process/Process'));
+const Portfolio = dynamic(() => import('@/components/portfolio/Portfolio'));
+const FAQ = dynamic(() => import('@/components/faq/FAQ'));
+const Footer = dynamic(() => import('@/components/layout/Footer'));
 
 export default function Home() {
   return (
     <>
+      {/* Above-the-fold Critical Render Path */}
       <Navbar />
       <main>
         <Hero />
-        <About />
-        <WhyUs />
-        <Services />
-        <Process />
-        <Portfolio />
-        <FAQ />
+        
+        {/* Below-the-fold Lazy Rendered Sections */}
+        <section className="section-lazy-render">
+          <About />
+        </section>
+        <section className="section-lazy-render">
+          <WhyUs />
+        </section>
+        <section className="section-lazy-render">
+          <Services />
+        </section>
+        <section className="section-lazy-render">
+          <Process />
+        </section>
+        <section className="section-lazy-render">
+          <Portfolio />
+        </section>
+        <section className="section-lazy-render">
+          <FAQ />
+        </section>
         <Footer />
       </main>
     </>

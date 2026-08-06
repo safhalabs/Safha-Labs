@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
 import { Inter, IBM_Plex_Mono, Instrument_Serif } from 'next/font/google';
+import dynamic from 'next/dynamic';
 import './globals.css';
-import FloatingWhatsApp from '@/components/layout/FloatingWhatsApp';
 import JsonLd from '@/components/layout/JsonLd';
+
+const FloatingWhatsApp = dynamic(() => import('@/components/layout/FloatingWhatsApp'));
 
 const inter = Inter({
   subsets: ['latin'],
