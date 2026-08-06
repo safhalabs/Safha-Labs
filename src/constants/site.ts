@@ -14,5 +14,4 @@ export const NAV_LINKS = [
   { href: '#layanan', label: 'Layanan', labelEn: 'Services' },
   { href: '#proses', label: 'Proses', labelEn: 'Process' },
   { href: '#portofolio', label: 'Portofolio', labelEn: 'Portfolio' },
-  { href: '#kontak', label: 'Kontak', labelEn: 'Contact' },
 ] as const;

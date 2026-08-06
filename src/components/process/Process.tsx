@@ -100,6 +100,7 @@ export default function Process() {
                 icon={step.icon}
                 isVisible={isVisible}
                 isOdd={isOdd}
+                isLast={index === steps.length - 1}
                 dataIndex={index}
               />
             );
