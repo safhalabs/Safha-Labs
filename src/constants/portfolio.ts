@@ -10,6 +10,16 @@ export interface PortfolioItem {
 
 export const PORTFOLIO_DATA: PortfolioItem[] = [
   {
+    id: 'myakademik',
+    tag: 'CLIENT PROJECT',
+    title: 'MyAkademik — Web Portal & SIM Akademik Terpadu SMA/SMK',
+    description:
+      'Sistem informasi manajemen & LMS akademik terpadu untuk SMA/SMK berbasis Kurikulum Merdeka, dilengkapi presensi digital QR Code, modul tugas & AI quick grading, timetable builder, serta e-Rapor PDF.',
+    techPills: ['Next.js', 'Tailwind CSS', 'TypeScript', 'LMS & SIM Akademik'],
+    image: '/portofolio/MyAkademik.png',
+    type: 'website',
+  },
+  {
     id: 'travel-mozaik',
     tag: 'CLIENT PROJECT',
     title: 'Website Landing Page Travel Umrah & Haji (Mozaik Travel Bandung)',
