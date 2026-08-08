@@ -52,7 +52,7 @@ export default function ProcessStepItem({
           <Icon className="w-[22px] h-[22px]" strokeWidth={2} />
         </div>
         <div className="flex-1">
-          <h3 className="text-[19px] font-semibold text-[#070D18] mb-2 m-0 tracking-tight group-hover:text-teal-700 transition-colors duration-300">
+          <h3 className="text-[19px] font-semibold text-[#09090B] mb-2 m-0 tracking-tight group-hover:text-teal-700 transition-colors duration-300">
             {title}
           </h3>
           <p className="text-[15px] leading-relaxed text-slate-600 m-0">{description}</p>

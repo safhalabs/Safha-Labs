@@ -6,7 +6,7 @@ import { SITE_CONFIG, NAV_LINKS } from '@/constants/site';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#070D18] text-white pt-32 pb-12 relative overflow-hidden">
+    <footer className="bg-[#09090B] text-white pt-32 pb-12 relative overflow-hidden">
       <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
 
       {/* Background ambient lighting */}

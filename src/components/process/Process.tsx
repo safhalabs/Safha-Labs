@@ -80,7 +80,7 @@ export default function Process() {
           <span className="font-mono text-[13px] font-semibold uppercase tracking-[0.18em] text-amber-700 block mb-3">
             Metodologi Kerja
           </span>
-          <h2 className="text-[2.25rem] min-[960px]:text-[2.75rem] font-bold text-[#070D18] m-0 tracking-tight leading-tight">
+          <h2 className="text-[2.25rem] min-[960px]:text-[2.75rem] font-bold text-[#09090B] m-0 tracking-tight leading-tight">
             Tujuh Langkah Menuju Sistem Digital Anda
           </h2>
         </div>

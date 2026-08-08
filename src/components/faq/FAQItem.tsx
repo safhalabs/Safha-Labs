@@ -17,7 +17,7 @@ export default function FAQItem({ question, answer, isOpen, onToggle }: FAQItemP
         onClick={onToggle}
         aria-expanded={isOpen}
       >
-        <span className={`text-[17px] min-[960px]:text-[19px] font-semibold transition-colors duration-300 ${isOpen ? 'text-teal-700' : 'text-[#070D18]'}`}>
+        <span className={`text-[17px] min-[960px]:text-[19px] font-semibold transition-colors duration-300 ${isOpen ? 'text-teal-700' : 'text-[#09090B]'}`}>
           {question}
         </span>
         <div className={`w-8 h-8 rounded-full flex items-center justify-center shrink-0 transition-colors duration-300 ${isOpen ? 'bg-teal-50 text-teal-600' : 'bg-slate-100 text-slate-500'}`}>

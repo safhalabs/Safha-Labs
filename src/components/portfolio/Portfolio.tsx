@@ -83,7 +83,7 @@ const Portfolio = () => {
   return (
     <section
       id="portofolio"
-      className={`bg-[#070D18] py-24 transition-all duration-1000 ease-out section-lazy-render relative overflow-hidden ${
+      className={`bg-[#09090B] py-24 transition-all duration-1000 ease-out section-lazy-render relative overflow-hidden ${
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-[30px]'
       }`}
       ref={sectionRef}

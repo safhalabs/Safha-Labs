@@ -38,7 +38,7 @@ export default function PortfolioCard({ item }: PortfolioCardProps) {
               sizes="(max-width: 960px) 100vw, 50vw"
               className="object-cover object-top transition-transform duration-1000 ease-[cubic-bezier(0.2,0.8,0.2,1)] group-hover:scale-105"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#070D18]/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#09090B]/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
           </div>
         ) : isCrm ? (
           <div className="p-6 h-full flex items-stretch min-h-[260px]">

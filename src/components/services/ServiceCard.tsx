@@ -26,7 +26,7 @@ export default function ServiceCard({ service }: ServiceCardProps) {
         <Icon className="w-8 h-8" strokeWidth={1.5} />
       </div>
       
-      <h3 className="text-[22px] font-bold text-[#070D18] mb-3 tracking-tight">{service.title}</h3>
+      <h3 className="text-[22px] font-bold text-[#09090B] mb-3 tracking-tight">{service.title}</h3>
       {service.subtitle && (
         <p className="text-[15px] font-medium text-slate-500 mb-5">{service.subtitle}</p>
       )}

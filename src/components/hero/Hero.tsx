@@ -84,7 +84,7 @@ export default function Hero() {
 
             {/* Heading preserving Safha Labs UX Context */}
             <h1
-              className="animate-fade-in delay-200 text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold tracking-tight leading-[1.08] text-[#070D18]"
+              className="animate-fade-in delay-200 text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold tracking-tight leading-[1.08] text-[#09090B]"
             >
               Solusi Digitalisasi Bisnis yang{" "}
               <span className="font-serif italic text-amber-600 font-semibold">

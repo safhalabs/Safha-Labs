@@ -45,7 +45,7 @@ export default function WhyUsCard({ item, isVisible, delayIndex }: WhyUsCardProp
       <span className="font-mono text-[11px] font-semibold uppercase tracking-[0.15em] text-slate-500 block mb-3">
         {item.tag}
       </span>
-      <h3 className="text-xl min-[960px]:text-[22px] font-bold text-[#070D18] mb-4 m-0 tracking-tight leading-snug">{item.title}</h3>
+      <h3 className="text-xl min-[960px]:text-[22px] font-bold text-[#09090B] mb-4 m-0 tracking-tight leading-snug">{item.title}</h3>
       <p className="text-[15px] text-slate-600 leading-relaxed m-0">{item.description}</p>
     </div>
   );

@@ -32,7 +32,7 @@ export default function WhyUs() {
           <span className="font-mono text-[13px] font-semibold uppercase tracking-[0.18em] text-amber-700 block mb-3">
             Keunggulan Safha Labs
           </span>
-          <h2 className="text-[2.25rem] min-[960px]:text-[2.75rem] font-bold text-[#070D18] m-0 tracking-tight leading-tight">
+          <h2 className="text-[2.25rem] min-[960px]:text-[2.75rem] font-bold text-[#09090B] m-0 tracking-tight leading-tight">
             Tiga Pilar yang Membedakan Kami
           </h2>
         </div>

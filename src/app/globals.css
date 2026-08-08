@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --ink: #070D18;
-  --ink-2: #0A1628;
+  --ink: #09090B;
+  --ink-2: #121215;
   --paper: #FAFAFC;
   --paper-dim: #F0F2F5;
   --white: #FFFFFF;
@@ -20,8 +20,8 @@
   --font-sans: var(--font-sans), system-ui, -apple-system, sans-serif;
   --font-mono: var(--font-mono), monospace;
 
-  --color-ink: #070D18;
-  --color-ink-2: #0A1628;
+  --color-ink: #09090B;
+  --color-ink-2: #121215;
   --color-paper: #FAFAFC;
   --color-paper-dim: #F0F2F5;
 }
@@ -106,8 +106,8 @@ body {
 }
 
 .glass-dark {
-  background: rgba(10, 22, 40, 0.6);
+  background: rgba(18, 18, 21, 0.75);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
