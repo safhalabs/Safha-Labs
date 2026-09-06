@@ -1,8 +1,9 @@
 export const SITE_CONFIG = {
   name: 'Safha Labs',
+  url: 'https://safhalabs.com',
   whatsappNumber: '6285117808182',
   whatsappUrl: 'https://wa.me/6285117808182?text=Halo%20Safha%20Labs%2C%20saya%20tertarik%20untuk%20berdiskusi%20lebih%20lanjut%20mengenai%20proyek%20saya.',
-  email: 'hello@safhalabs.id',
+  email: 'safhalabs@gmail.com',
   instagram: '@safhalabs',
   instagramUrl: 'https://instagram.com/safhalabs',
   location: 'Bandung, Jawa Barat, Indonesia',

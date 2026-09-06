@@ -74,10 +74,10 @@ src/
 ## Customization
 
 ### Contact Information
-- **WhatsApp**: Update the number in component files (currently `085117808182`)
-- **Email**: Update `hello@safhalabs.id` placeholder in `Footer.tsx`
-- **Instagram**: Update `@safhalabs` placeholder in `Footer.tsx`
-- **Address**: Update "Jakarta, Indonesia" in `Footer.tsx`
+- **WhatsApp**: Configured in `src/constants/site.ts` (`+62 851-1780-8182`)
+- **Email**: Configured in `src/constants/site.ts` (`safhalabs@gmail.com`)
+- **Instagram**: Configured in `src/constants/site.ts` (`@safhalabs`)
+- **Address**: "Bandung, Jawa Barat, Indonesia" in `src/constants/site.ts`
 
 ### Colors
 Design tokens are in `src/app/globals.css` under `:root`

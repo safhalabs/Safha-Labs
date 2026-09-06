@@ -29,28 +29,37 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://safhalabs.id'),
+  metadataBase: new URL('https://safhalabs.com'),
   title: {
     default: 'Safha Labs | Jasa Pembuatan Website & CRM Custom Bandung',
     template: '%s | Safha Labs',
   },
   description:
-    'Safha Labs adalah mitra teknologi strategis penyedia jasa pembuatan website custom, sistem CRM WhatsApp, portal akademik sekolah, dan sistem internal korporasi di Bandung.',
+    'Safha Labs adalah software house & mitra teknologi di Bandung. Menyediakan jasa pembuatan website custom, sistem CRM WhatsApp, portal akademik sekolah, dan aplikasi bisnis 100% hak milik.',
   keywords: [
-    'safha labs',
+    'Safha Labs',
+    'safhalabs',
+    'safhalabs.com',
     'jasa pembuatan website bandung',
+    'jasa website bandung',
+    'software house bandung',
     'crm whatsapp custom',
+    'jasa bikin web bandung',
     'portal akademik sekolah',
     'website listing properti',
     'jasa web developer bandung',
     'sistem informasi sekolah',
+    'jasa pembuatan web app',
     'web development indonesia',
   ],
-  authors: [{ name: 'Safha Labs', url: 'https://safhalabs.id' }],
+  authors: [{ name: 'Safha Labs', url: 'https://safhalabs.com' }],
   creator: 'Safha Labs',
   publisher: 'Safha Labs',
+  category: 'technology',
+  classification: 'Software House & Web Development Services',
   icons: {
     icon: '/favicon.png',
+    apple: '/favicon.png',
   },
   formatDetection: {
     email: false,
@@ -58,13 +67,13 @@ export const metadata: Metadata = {
     telephone: false,
   },
   alternates: {
-    canonical: 'https://safhalabs.id',
+    canonical: 'https://safhalabs.com',
   },
   openGraph: {
     title: 'Safha Labs | Jasa Pembuatan Website & CRM Custom Bandung',
     description:
-      'Mitra teknologi strategis untuk pembuatan CRM WhatsApp custom, portal akademik, dan website bisnis.',
-    url: 'https://safhalabs.id',
+      'Mitra teknologi strategis penyedia jasa pembuatan website custom, sistem CRM WhatsApp, portal akademik, dan aplikasi web bisnis di Bandung.',
+    url: 'https://safhalabs.com',
     siteName: 'Safha Labs',
     locale: 'id_ID',
     type: 'website',
@@ -73,7 +82,8 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Safha Labs | Jasa Pembuatan Website & CRM Custom Bandung',
     description:
-      'Mitra teknologi strategis untuk pembuatan CRM WhatsApp custom, portal akademik, dan website bisnis.',
+      'Mitra teknologi strategis penyedia jasa pembuatan website custom, sistem CRM WhatsApp, portal akademik, dan aplikasi web bisnis di Bandung.',
+    creator: '@safhalabs',
   },
   robots: {
     index: true,

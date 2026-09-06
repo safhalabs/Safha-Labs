@@ -9,6 +9,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/'],
       },
     ],
-    sitemap: 'https://safhalabs.id/sitemap.xml',
+    sitemap: 'https://safhalabs.com/sitemap.xml',
+    host: 'https://safhalabs.com',
   };
 }

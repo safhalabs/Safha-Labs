@@ -39,7 +39,7 @@ const Navbar = () => {
             width={160}
             height={40}
             className="h-8 w-auto object-contain"
-            loading="lazy"
+            priority
           />
         </Link>
 
