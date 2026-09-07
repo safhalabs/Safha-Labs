@@ -29,13 +29,4 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
     image: '/portofolio/travel-mozaik-bandung.png',
     type: 'website',
   },
-  {
-    id: 'crm-whatsapp',
-    tag: 'INTERNAL SYSTEM',
-    title: 'CRM WhatsApp & Manajemen Klien',
-    description:
-      'Sistem CRM berbasis web untuk mengelola data klien, memantau status proyek, menyimpan riwayat komunikasi, dan meningkatkan efisiensi pengelolaan pelanggan dalam satu dashboard.',
-    techPills: ['Google Apps Script', 'Firebase', 'WhatsApp API'],
-    type: 'crm',
-  },
 ];
